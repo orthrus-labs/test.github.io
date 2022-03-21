@@ -1,12 +1,11 @@
 import { useEffect } from 'react'
 import { hooks, metaMask } from '../../connectors/metaMask'
-import { Accounts } from '../Accounts'
 import { Card } from '../Card'
-import { Chain } from '../Chain'
 import { ConnectWalletButton } from '../ConnectWalletButton'
-import { Status } from '../Status'
 
 const { useChainId, useAccounts, useError, useIsActivating, useIsActive, useProvider, useENSNames } = hooks
+
+const prefix: string = '/test.github.io'
 
 export default function MetaMaskCard() {
   const chainId = useChainId()
@@ -27,7 +26,7 @@ export default function MetaMaskCard() {
   return (
     <Card>
       <div style={{ alignSelf: 'center' }}>
-        <img src="/images/metamask.svg" width={100} />
+        <img src={prefix + "/images/metamask.svg"} width={100} />
       </div>
       <ConnectWalletButton
         connector={metaMask}

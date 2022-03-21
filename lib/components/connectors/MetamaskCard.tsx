@@ -5,7 +5,7 @@ import { ConnectWalletButton } from '../ConnectWalletButton'
 
 const { useChainId, useAccounts, useError, useIsActivating, useIsActive, useProvider, useENSNames } = hooks
 
-const prefix: string = '/test.github.io'
+const prefix: string = process.env.NEXT_PUBLIC_BASE_PATH
 
 export default function MetaMaskCard() {
   const chainId = useChainId()

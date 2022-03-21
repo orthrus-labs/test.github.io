@@ -12,7 +12,8 @@ const mint = async (account: string) => {
   await nftTxn.wait()
   console.log('done')
 }
-const prefix = '/test.github.io'
+const prefix: string = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 const Page = () => {
   const { account } = useWeb3React()
 

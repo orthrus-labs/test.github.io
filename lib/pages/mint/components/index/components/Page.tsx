@@ -12,14 +12,14 @@ const mint = async (account: string) => {
   await nftTxn.wait()
   console.log('done')
 }
-
+const prefix = '/test.github.io'
 const Page = () => {
   const { account } = useWeb3React()
 
   return (
     <div>
       <head>
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href={prefix + "/favicon.png"}/>
         <title>Crypto Fighters - Home</title>
       </head>
 

@@ -9,6 +9,7 @@ import { hooks as metaMaskHooks, metaMask } from '../lib/connectors/metaMask'
 import { hooks as walletConnectHooks, walletConnect } from '../lib/connectors/walletConnect'
 import { Navbar } from '../lib/components/Navbar'
 import { Footer } from '../lib/components/Footer'
+import Head from 'next/head'
 
 const connectors: [MetaMask | WalletConnect | CoinbaseWallet, Web3ReactHooks][] = [
   [metaMask, metaMaskHooks],
@@ -18,6 +19,9 @@ const connectors: [MetaMask | WalletConnect | CoinbaseWallet, Web3ReactHooks][] 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Web3ReactProvider connectors={connectors}>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <Navbar />
       <Component {...pageProps} />
       <Footer />

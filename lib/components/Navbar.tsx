@@ -3,7 +3,7 @@ import { useWeb3React } from '@web3-react/core'
 import Link from 'next/link'
 import { FunctionComponent } from 'react'
 
-export function Navbar(): FunctionComponent {
+export function Navbar() {
   const { account, connector } = useWeb3React()
   return (
     <div className="navbar bg-base-100">

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "prettier": "prettier \"**/*.{ts,tsx}\"",
-    "test": "npm run prettier -- --check && jest"
+    "test": "npm run prettier -- --check && jest",
+    "export": "next export"
   },
   "dependencies": {
     "@ethersproject/bignumber": "^5.6.0",

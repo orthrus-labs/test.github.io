@@ -1,0 +1,27 @@
+#footer {
+    @extend .py-3;
+    background-color: $secondary;
+    h5 {
+        @extend .text-uppercase, .pb-3;
+        font-family: $font-family-sans-serif;
+        color: white;
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bold;
+        line-height: $line-height-base;
+    }
+    a {
+        color:white;
+        text-decoration: none;
+        font-size: $font-size-sm;
+        &:hover {
+            color: $primary;
+        }
+    }
+    small {
+        font-size: .7rem;
+        color:white;
+        a {
+            font-size: .7rem;
+        }
+    }
+}

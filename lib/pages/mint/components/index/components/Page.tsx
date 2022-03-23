@@ -23,283 +23,199 @@ const Page = () => {
         <link rel="shortcut icon" href={prefix + "/favicon.png"}/>
         <title>Crypto Fighters - Home</title>
       </head>
-
-      <div className="from-primary to-secondary text-primary-content -mt-[4rem] grid place-items-center items-end bg-gradient-to-br pt-20">
-        <div className="hero-content col-start-1 row-start-1 w-full max-w-7xl flex-col justify-between gap-10 pb-40 lg:flex-row lg:items-end lg:gap-0 xl:gap-20">
-          <div className="lg:px-10 lg:pb-32">
-            <h1 className="font-title mb-2 py-4 font-extrabold lg:py-10">
-              <div className="mb-2 text-5xl lg:text-7xl">The Gym Club</div>{' '}
-              <div className="text-2xl lg:text-3xl">
-                The most popular gym of the
-                <br />
-                metaverse
+      {/* Hero Section */}
+      <div className='hero-section py-4'>
+        <div className='overlay d-block d-xl-none'></div>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-12 col-lg-6'>
+              <h1 className="h1 mb-0 py-4">
+                The Best Heroes 
+                <span className='text-primary'> Clan</span> of the 
+                Metaverse
+              </h1>{' '}
+              <h4 className="h4">Best fighter in the most popular Gym of the metaverse.</h4>
+              <div className="mt-4 mb-5">
+                <a href="/mint" className="btn btn-primary">
+                  Mint
+                </a>
+                <a href="#team" className="btn btn-secondary ms-2">
+                  <span className="hidden sm:inline">See Team</span> <span className="inline sm:hidden">Components</span>
+                </a>{' '}
               </div>
-            </h1>{' '}
-            <div className="flex w-full flex-col items-start space-y-10 lg:flex-row lg:space-x-4 lg:space-y-0">
-              <div className="my-2 flex max-w-sm flex-col gap-2 text-left">
-                <div className="flex gap-2">
-                  <svg
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="inline-block h-6 w-6 stroke-current"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>{' '}
-                  10000 unique avatars
-                </div>{' '}
-                <div className="flex gap-2">
-                  <svg
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="inline-block h-6 w-6 stroke-current"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>{' '}
-                  Exclusive benefits
-                </div>{' '}
-                <div className="flex gap-2">
-                  <svg
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="inline-block h-6 w-6 stroke-current"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>{' '}
-                  Enter the Gym club
-                </div>{' '}
-                <div className="flex gap-2">
-                  <svg
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="inline-block h-6 w-6 stroke-current"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>{' '}
-                  Sponsored by the world best fighters
-                </div>{' '}
-                <div className="flex gap-2">
-                  <svg
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="inline-block h-6 w-6 stroke-current"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>{' '}
-                  Fucking crazy artwork
-                </div>
-              </div>{' '}
-            </div>{' '}
-            <div className="mt-4 flex flex-1 justify-center space-x-2 sm:justify-start lg:mt-6 lg:justify-start">
-              <a href="#team" className="btn btn-ghost btn-active lg:btn-lg normal-case">
-                <span className="hidden sm:inline">See Team</span> <span className="inline sm:hidden">Components</span>
-              </a>{' '}
-              <a href="/mint" className="btn lg:btn-lg normal-case">
-                Mint
-              </a>
             </div>
           </div>{' '}
-          <div>
+          {/* <div>
             <script
               type="text/javascript"
               src="//cdn.carbonads.com/carbon.js?serve=CEAI423U&amp;placement=daisyuicom"
               id="_carbonads_js"
             ></script>
-          </div>
-          <img src="https://ik.imagekit.io/bayc/assets/mystery-ape.gif" className="max-w-sm rounded-lg shadow-2xl" />
+          </div> */}
         </div>{' '}
-        <svg
-          className="fill-secondary col-start-1 row-start-1 h-auto w-full"
-          width="1600"
-          height="595"
-          viewBox="0 0 1600 595"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M0 338L53.3 349.2C106.7 360.3 213.3 382.7 320 393.8C426.7 405 533.3 405 640 359.3C746.7 313.7 853.3 222.3 960 189.2C1066.7 156 1173.3 181 1280 159.2C1386.7 137.3 1493.3 68.7 1546.7 34.3L1600 0V595H1546.7C1493.3 595 1386.7 595 1280 595C1173.3 595 1066.7 595 960 595C853.3 595 746.7 595 640 595C533.3 595 426.7 595 320 595C213.3 595 106.7 595 53.3 595H0V338Z"></path>
-        </svg>
       </div>
-
-      <div className="hero bg-neutral text-neutral-content min-h-screen">
-        <div className="hero-content mx-auto max-w-md text-center md:max-w-full">
+      
+      
+      {/* The Roadmap */}
+      <div className="container py-4 py-lg-5">
+        <div>
+          <h2 className="h2">The Roadmap</h2>{' '}
           <div>
-            <h2 className="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">The Roadmap</h2>{' '}
-            <h3 className="mb-5 text-3xl font-bold">We are in for the long haul</h3>{' '}
-            <p className="mx-auto mb-5 max-w-lg">
-              We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to
-              work on realizing the stated goal.
-            </p>
-            <div className="my-20 flex flex-col">
-              <div className="mockup-code bg-neutral-focus mx-auto w-full max-w-xs  shadow-lg sm:max-w-none">
-                <pre>
-                  <code>
-                    <span className="text-teal-500">10%</span> - We pay back our moms.
-                  </code>
-                </pre>
-              </div>{' '}
-              <div className="divider text-neutral-content text-opacity-30">↓</div>{' '}
-              <div className="mockup-code bg-neutral-focus mx-auto w-full max-w-xs  shadow-lg sm:max-w-none">
-                <pre>
-                  <code>
-                    <span className="text-teal-500">20%</span> - We release the Caged Apes. 5 Caged Apes (tokens held{' '}
-                    <br />
-                    back from the sale) are airdropped to random Apeholders.
-                  </code>
-                </pre>
+            <div className="row mt-4">
+              <div className="col-6 col-lg-4">
+                <div className='list-icon mb-2'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-apple icon" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                  </svg>
+                </div>
+                <h5 className='h5'>
+                  <span className="text-primary">10%</span> - We pay back our moms.
+                </h5>
+                <p>We’ve set up some goalposts for ourserlves.</p>
               </div>
-              <div className="divider text-neutral-content text-opacity-30">↓</div>{' '}
-              <div className="mockup-code bg-neutral-focus mx-auto w-full max-w-xs shadow-lg sm:max-w-none">
-                <pre>
-                  <code>
-                    <span className="text-teal-500">40%</span> - BAYC gets its own YouTube channel, <br /> BAYC LoFi
-                    Radio - Beats to Ape into Shitcoins To.
-                  </code>
-                </pre>
+              <div className="col-6 col-lg-4">
+                <div className='list-icon mb-2'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-apple icon" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                  </svg>
+                </div>
+                <h5 className='h5'>
+                  <span className="text-primary">20%</span> - We pay back our moms.
+                </h5>
+                <p>We’ve set up some goalposts for ourserlves. Once we hit a target sell throungh percentage.</p>
               </div>
-              <div className="divider text-neutral-content text-opacity-30">↓</div>{' '}
-              <div className="mockup-code bg-neutral-focus mx-auto w-full max-w-xs shadow-lg sm:max-w-none">
-                <pre>
-                  <code>
-                    <span className="text-teal-500">60%</span> - Member-Exclusive BAYC Merch Store gets unlocked, <br />
-                    featuring Limited Edition tees, hoodies, and other goodies.
-                  </code>
-                </pre>
+              <div className="col-12 col-lg-4">
+                <div className='list-icon mb-2'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-apple icon" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                  </svg>
+                </div>
+                <h5 className='h5'>
+                  <span className="text-primary">40%</span> - We pay back our moms.
+                </h5>
+                <p>We’ve set up some goalposts for ourserlves. Once we hit.</p>
               </div>
-              <div className="divider text-neutral-content text-opacity-30">↓</div>{' '}
-              <div className="mockup-code bg-neutral-focus mx-auto w-full max-w-xs shadow-lg sm:max-w-none">
-                <pre>
-                  <code>
-                    <span className="text-teal-500">80%</span> -The clubhouse image becomes interactive and the <br />
-                    Mysterious Note becomes legible, <br /> beginning a treasure hunt. The first to solve the mystery{' '}
-                    <br /> will be rewarded 5 ETH and a Bored Ape.
-                  </code>
-                </pre>
+            </div>
+            <div className="row mt-4 mt-lg-5">
+              <div className="col-6 col-lg-4">
+                <div className='list-icon mb-2'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-apple icon" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                  </svg>
+                </div>
+                <h5 className='h5'>
+                  <span className="text-primary">60%</span> - We pay back our moms.
+                </h5>
+                <p>We’ve set up some goalposts for ourserlves.</p>
               </div>
-              <div className="divider text-neutral-content text-opacity-30">↓</div>{' '}
-              <div className="mockup-code bg-neutral-focus mx-auto w-full max-w-xs shadow-lg sm:max-w-none">
-                <pre>
-                  <code>
-                    <span className="text-teal-500">90%</span> -The Bored Ape liquidity pool is initiated.
-                  </code>
-                </pre>
+              <div className="col-6 col-lg-4">
+                <div className='list-icon mb-2'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-apple icon" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                  </svg>
+                </div>
+                <h5 className='h5'>
+                  <span className="text-primary">80%</span> - We pay back our moms.
+                </h5>
+                <p>We’ve set up some goalposts for ourserlves. Once we hit a target sell throungh percentage.</p>
               </div>
-              <div className="divider text-neutral-content text-opacity-30">↓</div>{' '}
-              <div className="mockup-code bg-neutral-focus mx-auto w-full max-w-xs shadow-lg sm:max-w-none">
-                <pre>
-                  <code>
-                    <span className="text-teal-500">100%</span> -The Mutant Ape (NFT Breeding) Arcade Machine <br />{' '}
-                    gets ﬁxed.
-                    <br />
-                    And we cook up new ways to ape with our friends.
-                  </code>
-                </pre>
+              <div className="col-12 col-lg-4">
+                <div className='list-icon mb-2'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-apple icon" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                  </svg>
+                </div>
+                <h5 className='h5'>
+                  <span className="text-primary">90%</span> - We pay back our moms.
+                </h5>
+                <p>We’ve set up some goalposts for ourserlves. Once we hit.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
+      {/* The Team */}
+      <div className="team-section py-4 py-lg-5">
+        <div className="container">
+          <div className="d-flex justify-content-between align-items-center">
+            <div className="team-title">
+              <h2 className="h2">The Team</h2>{' '}
+              <p className="mt-1">Ambassadors of the fight business</p>{' '}
+            </div>
+            <div className="d-none d-lg-block team-subtitle">
+              <h4 className="h5">Lorem Ipsum</h4>{' '}
+            </div>
+          </div>
 
-      <div className="hero from-primary to-accent text-primary-content min-h-screen bg-gradient-to-br">
-        <div className="hero-content mx-auto max-w-md text-center md:max-w-full">
-          <div>
-            <h2 className="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">Powerful Team</h2>{' '}
-            <h3 className="mb-5 text-3xl font-bold">Ambassadors of the fight business</h3>{' '}
-            <p className="mx-auto mb-5 w-full max-w-lg">
-              BAYC was created by four friends who set out to make some dope apes, test our skills, and try to build
-              something (ridiculous).{' '}
-              <a href="/docs/themes" className="link">
-                Read more about us
-              </a>
-            </p>{' '}
-            <div className="my-20 flex w-full flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
-              <div
-                data-theme="luxury"
-                className="card bg-base-100 text-base-content mx-auto w-full max-w-xs flex-1 p-8"
-              >
-                <h3 className="text-sm font-bold mb-2">Manuele Raini</h3>{' '}
+          <div className="row my-4">
+            <div className='col-12 col-lg-4'>
+              <div className="card">
                 <img src="https://image.binance.vision/editor-uploads-original/9c15d9647b9643dfbc5e522299d13593.png" />
-              </div>{' '}
-              <div
-                data-theme="luxury"
-                className="card bg-base-100 text-base-content mx-auto w-full max-w-xs flex-1 p-8"
-              >
-                <h3 className="text-sm font-bold mb-2">Diego Famulari</h3>{' '}
-                <img src="https://lh3.googleusercontent.com/wDOZrOnLF3pnb4NgJc4KxQS1q5FLZYZ9yfLtUZQ3rDdhwErcgyYy-0zYZ6N8_mmUum61Th8mDG10zRtQsa5uHJ4EZBuzFptLIEP_=w600" />
-              </div>{' '}
-              <div
-                data-theme="luxury"
-                className="card bg-base-100 text-base-content mx-auto w-full max-w-xs flex-1 p-8"
-              >
-                <h3 className="text-sm font-bold mb-2">Riccardo Persiani</h3>{' '}
+                <h3 className="h4 font-bold mb-2"><span className='text-primary'>Manuele</span> Raini</h3>{' '}
+              </div>
+            </div>
+            <div className='col-12 col-lg-4'>
+              <div className="card">
+              <img src="https://lh3.googleusercontent.com/wDOZrOnLF3pnb4NgJc4KxQS1q5FLZYZ9yfLtUZQ3rDdhwErcgyYy-0zYZ6N8_mmUum61Th8mDG10zRtQsa5uHJ4EZBuzFptLIEP_=w600" />
+                <h3 className="h4 font-bold mb-2"><span className='text-primary'>Diego</span> Famulari</h3>{' '}
+              </div>
+            </div>
+            <div className='col-12 col-lg-4'>
+              <div className="card">
                 <img src="https://preview.redd.it/tpxvny1fbdv61.png?auto=webp&s=2c624ad00989dc058a34d62a8730061d43a05df4" />
-              </div>{' '}
-            </div>{' '}
-            <a href="/docs/themes" className="btn btn-ghost btn-sm mb-20">
+                <h3 className="h4 font-bold mb-2"><span className='text-primary'>Riccardo</span> Persiani</h3>{' '}
+              </div>
+            </div>
+          </div>{' '}
+          <div className='text-center'>
+            <a href="/docs/themes" className="btn btn-secondary">
               Read more about us
             </a>{' '}
-            <div></div>
           </div>
+          <div></div>
         </div>
       </div>
 
-      <div className="hero bg-base-100 text-base-content mx-auto min-h-screen max-w-md md:max-w-full">
-        <div className="hero-content text-center">
-          <div className="w-full max-w-md">
-            <h2 className="mt-50 mb-2 text-4xl font-extrabold md:text-6xl">Mint Crypto Fighters</h2>{' '}
-            <p className="mx-auto mt-5 w-full max-w-lg">Miniting stars 20th April 2022</p>{' '}
-            <p className="mx-auto mt-5 w-full max-w-lg text-left">1. Have a wallet</p>{' '}
-            <div className="mx-auto my-2 w-full max-w-md">
-              <p className="mx-auto mt-5 w-full max-w-lg text-left">2. Go to the mint page</p>{' '}
-              <p className="mx-auto mt-5 w-full max-w-lg text-left">3. Make sure you are on Ethereum Mainnet</p>{' '}
-              <p className="mx-auto mt-5 w-full max-w-lg text-left">4. Press mint button</p>{' '}
-              <p className="mx-auto mt-5 w-full max-w-lg text-left">5. Confirm operation</p>{' '}
-              <p className="mx-auto mt-5 w-full max-w-lg text-left">6. Check account to find your NFT</p>{' '}
-              <a href="/mint" className="btn-primary btn btn-wide mt-4 mb-20 shadow-lg mt-10">
+
+      {/* Mint Crypto Fighter Section */}
+      <div className='container py-4 py-lg-5'>
+        <div className='row'>
+          <div className='col-12 col-lg-4'>
+            <h2 className="h2">Mint Crypto Fighters</h2>{' '}
+            <a href="/mint" className="btn btn-primary mt-2">
                 Mint guide
-              </a>
+            </a>
+          </div>
+          <div className='col-12 col-lg-8 mt-4 mt-lg-0'>
+            <div className='d-block d-lg-flex align-items-end'>
+              <div>
+                <p className='mb-4 mt-2'>Minting stars 20th April 2022</p>{' '}
+                <p className='mt-2'><span className='font-bold text-primary'>1.</span> Have a wallet</p>{' '}
+                <p className='mt-2'><span className='font-bold text-primary'>2.</span> Go to the mint page</p>{' '}
+                <p className='mt-2'><span className='font-bold text-primary'>3.</span> Make sure you are on Ethereum Mainnet</p>{' '}
+              </div>
+              <div className='ms-0 ms-lg-5'>
+                <p className='mt-2'><span className='font-bold text-primary'>4.</span> Press mint button</p>{' '}
+                <p className='mt-2'><span className='font-bold text-primary'>5.</span> Confirm operation</p>{' '}
+                <p className='mt-2'><span className='font-bold text-primary'>6.</span> Check account to find your NFT</p>{' '}
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Image section */}
+      <div className='image-section pt-4 pt-lg-5'>
+        <img src='/images/images_section.jpg' className='img-fluid w-100' alt='Crypto Fighters'/>
+      </div>
+      
     </div>
   )
 }

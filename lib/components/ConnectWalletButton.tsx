@@ -20,7 +20,7 @@ export function ConnectWalletButton({
     return (
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ marginBottom: '1rem' }} />
-        <button className="btn" style={{ width: '140px', alignSelf: 'center' }} onClick={() => connector.activate(4)}>
+        <button className="btn btn-primary" style={{ width: '140px', alignSelf: 'center' }} onClick={() => connector.activate(4)}>
           Try Again?
         </button>
       </div>
@@ -29,7 +29,7 @@ export function ConnectWalletButton({
     return (
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ marginBottom: '1rem' }} />
-        <button className="btn" style={{ width: '140px', alignSelf: 'center' }} onClick={() => connector.deactivate()}>
+        <button className="btn btn-primary" style={{ width: '140px', alignSelf: 'center' }} onClick={() => connector.deactivate()}>
           Disconnect
         </button>
       </div>
@@ -39,7 +39,7 @@ export function ConnectWalletButton({
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ marginBottom: '1rem', width: '140px' }} />
         <button
-          className="btn"
+          className="btn btn-primary"
           style={{ width: '140px', alignSelf: 'center' }}
           onClick={isActivating ? undefined : () => connector.activate(4)}
           disabled={isActivating}

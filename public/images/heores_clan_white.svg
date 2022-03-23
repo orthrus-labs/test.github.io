@@ -1,0 +1,22 @@
+<svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" width="191.011" height="57.577" viewBox="0 0 191.011 57.577">
+  <g id="Livello_1" data-name="Livello 1">
+    <g id="Raggruppa_3" data-name="Raggruppa 3">
+      <g id="Raggruppa_1" data-name="Raggruppa 1" transform="translate(0.977)">
+        <path id="Tracciato_1" data-name="Tracciato 1" d="M22.574,22H12.218V35.547H1.322V.8h10.9V13.313H22.574V.8h10.9v34.75h-10.9V22Z" transform="translate(-1.322 -0.208)" fill="#fff"/>
+        <path id="Tracciato_2" data-name="Tracciato 2" d="M74.645,9.485H62.375v4.27h10.8v8.2h-10.8V26.86h12.27v8.687H51.479V.8H74.645Z" transform="translate(-14.424 -0.208)" fill="#fff"/>
+        <path id="Tracciato_3" data-name="Tracciato 3" d="M104.613.8c8.737,0,13.2,5.006,13.2,11.387a10.23,10.23,0,0,1-7.51,10.062l7.558,13.3H105.889L99.361,23.08h-.049V35.547h-10.9V.8h16.2Zm-.982,9.129H99.312v5.89h4.319c2.062,0,3.141-.884,3.141-2.945,0-1.767-1.079-2.945-3.141-2.945Z" transform="translate(-24.073 -0.208)" fill="#fff"/>
+        <path id="Tracciato_4" data-name="Tracciato 4" d="M149.512,35.682A17.543,17.543,0,0,1,131.6,17.816C131.6,7.362,139.647,0,149.512,0a17.42,17.42,0,0,1,17.816,17.817,17.49,17.49,0,0,1-17.816,17.866Zm0-10.16c4.368,0,6.773-3.092,6.773-7.706,0-4.712-2.4-7.755-6.773-7.755-4.467,0-6.823,3.043-6.823,7.755C142.69,22.43,145.046,25.522,149.512,25.522Z" transform="translate(-35.354)" fill="#fff"/>
+        <path id="Tracciato_5" data-name="Tracciato 5" d="M208.441,9.485h-12.27v4.27h10.8v8.2h-10.8V26.86h12.27v8.687H185.275V.8h23.166Z" transform="translate(-49.376 -0.208)" fill="#fff"/>
+        <path id="Tracciato_6" data-name="Tracciato 6" d="M235.425,35.682c-7.951,0-14.184-3.681-14.675-11.485h11.583c.2,2.552,1.571,2.994,2.651,2.994s2.11-.491,2.11-1.718c-.049-4.712-16.442-2.993-16.246-14.871,0-6.97,5.89-10.6,13.3-10.6,8.393,0,13.792,4.025,14.086,11.24h-11.73c-.1-2.11-1.227-2.748-2.405-2.748a1.555,1.555,0,0,0-1.571,1.767c0,4.368,16.148,3.633,16.148,14.331,0,6.381-4.859,11.093-13.252,11.093Z" transform="translate(-58.643)" fill="#fff"/>
+      </g>
+      <g id="Raggruppa_2" data-name="Raggruppa 2" transform="translate(67.863 41.412)">
+        <path id="Tracciato_7" data-name="Tracciato 7" d="M99.761,56.055a7.448,7.448,0,0,1,7.333,4.79h-2.475a4.977,4.977,0,0,0-4.858-2.974c-3.315,0-5.789,2.406-5.789,6.289,0,3.859,2.475,6.266,5.789,6.266a4.993,4.993,0,0,0,4.858-2.951h2.475a7.442,7.442,0,0,1-7.333,4.745,8.085,8.085,0,0,1,0-16.165Z" transform="translate(-91.86 -56.055)" fill="#1c83e5"/>
+        <path id="Tracciato_8" data-name="Tracciato 8" d="M118.7,56.332V70.477h5.539v1.68h-7.606V56.333H118.7Z" transform="translate(-98.332 -56.127)" fill="#1c83e5"/>
+        <path id="Tracciato_9" data-name="Tracciato 9" d="M138.913,68.669h-6.9l-1.272,3.519H128.56l5.722-15.734h2.384l5.7,15.734h-2.179ZM135.462,59,132.6,66.988h5.721L135.462,59Z" transform="translate(-101.447 -56.159)" fill="#1c83e5"/>
+        <path id="Tracciato_10" data-name="Tracciato 10" d="M163.072,56.3V72.148h-2.066l-8.309-12.6v12.6H150.63V56.3H152.7l8.309,12.578V56.3h2.066Z" transform="translate(-107.212 -56.119)" fill="#1c83e5"/>
+      </g>
+      <rect id="Rettangolo_14" data-name="Rettangolo 14" width="59.408" height="6.649" rx="3.324" transform="translate(0 46.833)" fill="#1c83e5"/>
+      <rect id="Rettangolo_15" data-name="Rettangolo 15" width="59.408" height="6.649" rx="3.324" transform="translate(131.501 46.833)" fill="#1c83e5"/>
+    </g>
+  </g>
+</svg>

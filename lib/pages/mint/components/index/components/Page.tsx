@@ -19,10 +19,6 @@ const Page = () => {
 
   return (
     <div>
-      <head>
-        <link rel="shortcut icon" href={prefix + "/favicon.png"}/>
-        <title>Crypto Fighters - Home</title>
-      </head>
       {/* Hero Section */}
       <div className='hero-section py-4'>
         <div className='overlay d-block d-xl-none'></div>

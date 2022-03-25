@@ -1,6 +1,5 @@
 import { useWeb3React } from '@web3-react/core'
 import { ethers } from 'ethers'
-import { ReactComponentElement } from 'react'
 import Squares from "../../../../public/abi/Squares.json"
 const mint = async (account: string) => {
 
@@ -20,10 +19,6 @@ const Page = () => {
 
   return (
     <div>
-      <head>
-        <link rel="shortcut icon" href="/favicon.png" />
-        <title>Crypto Fighters - Mint</title>
-      </head>
       <button
         className="btn"
         onClick={async () => { await mint(account)}}

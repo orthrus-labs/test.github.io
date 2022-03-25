@@ -31,7 +31,7 @@ jobs:
          INFURA_KEY: 84842078b09946638c03157f83405213
          ALCHEMY_KEY: _gg7wSSi0KMBsdKnGVfHDueq6xMB9EkC
          MAGIC_KEY: pk_live_1F99B3C570C9B08F
-         NEXT_PUBLIC_BASE_PATH: /test.github.io
+         NEXT_PUBLIC_BASE_PATH: /heroesclan.io
 
       - name: Export static files
         run: npm run export
@@ -39,7 +39,7 @@ jobs:
          INFURA_KEY: 84842078b09946638c03157f83405213
          ALCHEMY_KEY: _gg7wSSi0KMBsdKnGVfHDueq6xMB9EkC
          MAGIC_KEY: pk_live_1F99B3C570C9B08F
-         NEXT_PUBLIC_BASE_PATH: /test.github.io
+         NEXT_PUBLIC_BASE_PATH: /heroesclan.io
 
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll

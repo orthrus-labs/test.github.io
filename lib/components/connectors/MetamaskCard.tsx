@@ -5,7 +5,7 @@ import { ConnectWalletButton } from '../ConnectWalletButton'
 
 const { useChainId, useAccounts, useError, useIsActivating, useIsActive, useProvider, useENSNames } = hooks
 
-const prefix: string = process.env.NEXT_PUBLIC_BASE_PATH || ''
+//const prefix: string = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 export default function MetaMaskCard() {
   const chainId = useChainId()
@@ -26,7 +26,7 @@ export default function MetaMaskCard() {
   return (
     <Card>
       <div style={{ alignSelf: 'center' }}>
-        <img src={prefix + "/images/metamask.svg"} width={100} />
+        <img src={"/images/metamask.svg"} width={100} />
       </div>
       <ConnectWalletButton
         connector={metaMask}

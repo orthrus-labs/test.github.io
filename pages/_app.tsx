@@ -1,3 +1,4 @@
+import '../styles/dist/theme-styles.css'
 import '../styles/global.css'
 import type { AppProps } from 'next/app'
 import { Web3ReactHooks, Web3ReactProvider } from '@web3-react/core'

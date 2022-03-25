@@ -1,0 +1,27 @@
+.btn {
+    &.btn-primary {
+        border-radius: 5px;
+        @extend .px-2;
+        font-weight: $font-weight-base;
+        color: $white;
+        text-transform: capitalize;
+        background-color: $primary;
+        border: 1px solid $primary;
+        &:hover {
+            box-shadow: 5px 5px 30px rgba(0,61,255,.8);
+        }
+    }
+    &.btn-secondary {
+        @extend .px-2;
+        border-radius: 5px;
+        font-weight: $font-weight-base;
+        color: $white;
+        text-transform: capitalize;
+        background-color: transparent;
+        border: 1px solid $white;
+        &:hover {
+            box-shadow: 5px 5px 30px rgba(0,61,255,.8);
+            background-color: transparent;
+        }
+    }
+}

@@ -1,0 +1,141 @@
+
+/* Header */
+.site-header {
+    @extend .sticky-top;
+    .header-wrapper {
+        width: 100%;
+        padding: $spacer / 2  0px;
+        z-index: 1001;
+        transition: all .5s ease;
+        background-color: $body-bg;
+        box-shadow: 0px 0px 15px 5px rgba(28, 126, 255, 0.1);
+    }
+    .site-header-branding {
+        .logo {
+            img {
+                width: 120px;
+                height: auto;
+            }
+        }
+    }
+    .menu-main {
+        .menu-container {
+            .menu-text-container {
+                .menu-list {
+                    @extend .d-block, .d-lg-flex, .align-items-center;
+                    margin-bottom: 0px;
+                    li {
+                        list-style-type: none;
+                        padding: 0px 20px;
+                        a {
+                            color: $body-color;
+                            text-decoration: none;
+                            &:hover {
+                                color: $primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .menu-toggle {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            border: 1px solid $primary;
+            cursor: pointer;
+            z-index: 1;
+            .open {
+                position: absolute;
+                top: 50%;
+                right: 50%;
+                transform: translate(50%, -50%);
+                color: $white;
+            }
+        }
+        &.active {
+            @extend .ms-3;
+            .close {
+                color: $primary;
+            }
+            .menu-container {
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: $white;
+                .menu-text-container {
+                    .menu-list {
+                        text-align: center;
+                        padding: $spacer * 3 0px;
+                        li {
+                            font-size: $font-size-lg * 2;
+                            a { 
+                                color: $primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.sticky-active {
+        .header-wrapper {
+            padding: $spacer / 3 0px;
+            box-shadow: 0px 0px 15px 5px rgba(255, 28, 28, 0.1);
+        }
+        .site-header-branding {
+            .logo {
+                img {
+                    @extend .ms-lg-2;
+                    width: 100px;
+                    height: auto;
+                }
+            }
+        }
+        .menu-main {
+            .menu-container {
+                .menu-text-container {
+                    .menu-list {
+                        li {
+                            a {
+                                color: $body-color;
+                                &:hover {
+                                    color: $primary;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .menu-toggle {
+                i {
+                    color: $body-color;
+                    font-size: $font-size-lg;
+                }
+            }
+            &.active {
+                .menu-container {
+                    .menu-text-container {
+                        .menu-list {
+                            li {
+                                a {
+                                    color: $white;
+                                    &:hover {
+                                        color: $primary;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .menu-toggle {
+                    i {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
